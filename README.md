@@ -1,23 +1,18 @@
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Project 3: Web APIs & NLP
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Project 3: Web APIs & NLP -- The Goulet Pen Company: Customer Sentiment
 
-### Description
+### Background
 
-In week five we've learned about a few different classifiers. In week six we'll learn about webscraping, APIs, and Natural Language Processing (NLP). This project will put those skills to the test.
-
-For project 3, your goal is two-fold:
-1. Using Reddit's API, you'll collect posts from two subreddits of your choosing.
-2. You'll then use various NLP techniques to process your data before training a range of classifiers to determine where a given post came from.
+[The Goulet Pen Copany](https://www.gouletpens.com/) is an online only retail business centered on foutain pens, paper, and accessories.  Their company values emphasize personal customer service, product education, and establishing trust with their customer base. While they are a small business, they are well recognized in the fountain pen community.  
 
 
-#### About the API
+### Problem Statement
 
-In 2023, Reddit proposed and underwent a series of changes to its API that greatly affected the ways that users, developers, and academics interact with and access the troves of data that its community freely creates.
+Goulet Pens is an online only retail store, so it's crucial that they maintain a positive relationship with online fountain pen communities.  Reddit's '[fountainpens](https://www.reddit.com/r/fountainpens/)' subreddit community has 292K members alone.  There are dozens of other fountain pen related communities on Reddit and platforms like Discord.  For this project, I will also be looking at the '[stationery](https://www.reddit.com/r/stationery/)' subreddit.  Goulet Pens also sells accessories and there is cross over between fountain pens and general stationery.
 
-While the cost of data storage cannot be ignored, the monetization of its API has led to a shutdown of massively popular third-party and stifled [important research](https://arxiv.org/search/?query=reddit&searchtype=all&source=header) in the social sciences (community formation/network analysis, hate speech, discourse analysis, etc.), cybersecurity (bot detection), and—importantly for us this week—the very large and diverse world of natural language processing (semantic analysis, translation, topic modeling, disambiguation, relationship extraction, etc).
+I will be looking at both subreddit communities and developing classification models to determine if posts originate from 'fountainpens' or 'stationery'.  Using these models can help Goulet Pens identify trends and gain insight into what customers want and their opinions about Goulet Pens.
 
-While APIs like Pushshift that collected and stored Reddit's data from its inception are no longer accessible, we can still retrieve a limited amount of data directly from [Reddit's API](https://www.reddit.com/dev/api/). As with anytime you begin interacting with a new tool, you should familiarize yourself as much as possible with the documentation.
-
-**We will do a walkthrough of how to access and submit a simple request to the Reddit API together.**
+SPACY REFERENCE WEBSITE
+https://machinelearninggeek.com/text-classification-using-python-spacy/
 
 ---
 ## Checkpoints and Advice
