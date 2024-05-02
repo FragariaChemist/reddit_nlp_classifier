@@ -20,8 +20,8 @@ https://machinelearninggeek.com/text-classification-using-python-spacy/
 |---|---|---|---|
 |**cleaned_corpus**|*int/str*|Reddit|Combined title and post data.  Subreddits have been binarized.| 
 |**corpus**|*str*|Reddit|Title and post text data from r/fountainpens and r/pens subreddit communities.
-|**data_collection_log**|*various*|Data and time log of when Reddit posts were scraped.
-|**text_processed_corpus**|*float*|cleaned_corpus.csv that has been processed with SpaCy.
+|**data_collection_log**|*various*|Generated|Data and time log of when Reddit posts were scraped.
+|**text_processed_corpus**|*float*|Generated|cleaned_corpus.csv that has been processed with SpaCy.
 |
 ### Dataset Sources
 - [r/fountainpens](https://www.reddit.com/r/fountainpens/)
