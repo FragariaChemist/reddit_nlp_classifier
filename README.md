@@ -1,5 +1,5 @@
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Project 3: Web APIs & NLP -- A Potential Market Research and Sentiment Analysis Tool For the Goulet Pen Company
-### Background
+# Web APIs & NLP -- A Potential Market Research and Sentiment Analysis Tool For the Goulet Pen Company
+## Background
 
 [The Goulet Pen Copany](https://www.gouletpens.com/) is an online only retail business centered on foutain pens, paper, and accessories.  Their company values emphasize personal customer service, product education, and establishing trust with their customer base. While they are a small business, they are well recognized in the fountain pen community.  
 
@@ -20,7 +20,7 @@ I will be looking at both subreddit communities and developing classification mo
 |**data_collection_log**|*various*|Generated|Data and time log of when Reddit posts were scraped.
 |**text_processed_corpus**|*float*|Generated|cleaned_corpus.csv that has been processed with SpaCy.
 |
-### Dataset Sources
+## Dataset Sources
 - [r/fountainpens](https://www.reddit.com/r/fountainpens/)
 - [r/pens](https://www.reddit.com/r/pens/)
 ---
