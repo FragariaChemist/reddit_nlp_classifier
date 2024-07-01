@@ -41,7 +41,8 @@ r/fountainpens posts is considered the positive target. The baseline model is 56
 |---|---|---|---|---|---|---|
 |**Logistic Regression & CountVectorizer**|98%|89%|89%|92%|87%|90%|
 |**Logistic Regression & TD IDF**|89%|87%|87%|91%|82%|86%|
-**Bernoulli Naive Bayes & CountVectorizer**|90%|90%|90%|88%|91%|93%
+|**Bernoulli Naive Bayes & CountVectorizer**|90%|90%|90%|88%|91%|93%|
+|**Multinomial Naive Bayes & Countvectorizer**|91%|91%|91%|93%|88%|91%
 
 #### Parameters used per model
 
@@ -70,10 +71,18 @@ r/fountainpens posts is considered the positive target. The baseline model is 56
     cvec__max_df: 0.7<br>
     cvec__ngram_range: (1,3)
 
+*Multinomial Naive Bayes & CountVectorizer*<br>
+    bb__alpha: 0.95,<br>
+    cvec__max_features: 2000<br>
+    cvec__min_df: 3<br>
+    cvec__max_df: 0.7<br>
+    cvec__ngram_range: (1,3)
+    
 ### Confusion Matrices
 * [Logistic Regression & CountVectorizer](plot_images/logreg_cvec_confusion_matrix.png)
 * [Logistic Regression & TF IDF](plot_images/logreg_tfidf_confusion_matrix.png)
 * [Bernoulli Naive Bayes & CountVectorizer](plot_images/bernoulli_nb_cvec_confusion_matrix.png)
+* [Multinomial Naive Bayes & CountVectorizer](plot_images/multinomial_nb_cvec_confusion_matrix.png)
 
 
 ---
